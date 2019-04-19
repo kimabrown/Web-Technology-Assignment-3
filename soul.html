@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Balanced-Living</title>
+    <style>
+      div { background-color: "#b9ffff";
+            margin-bottom: .5em }
+         .class1 {text-align: center;
+                  width: 1100px; height: 677px; }
+        </style>
+    <script src="functions.js"></script>
+</head>
+<body bgcolor="#b9ffff">
+    <div class="class1">
+        <h1 align="center">Soul Healing</h1>
+        <img src="images/e-books/health/Soul.jpg" alt="" height="325" width="300"/><br />
+        <h3 style="font-style: italic; color: red;" >A Guide to a Happy and Healthy Life by Basic Lifestyle Changes.</h3>
+        <div class="class2"><h4>Price: $1.99</h4>
+        <form style="text-align:center; height:auto;" action="http://localhost:8090/" method="post">
+          <table border="0" align=center>
+            <tr>
+              <td align="left" class="auto-style1">Quantity</td>
+              <td align="left" class="auto-style1"><input type="text" maxlength="5" name="quantity" size="8" required="required" pattern="[0-9]{1,2}" message="2 digits only"/></td>
+            </tr>
+          </table>
+        </form>
+ <br/>
+       <p><input type="image" value="Add to Cart" src="home/atc.png" onclick="addToCart()"/></p>
+    <h4><a href="store_index.html">Continue Shopping</a></h4>
+        </div>
+    </div>
+</body>
+</html>

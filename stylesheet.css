@@ -1,0 +1,19 @@
+﻿body {
+}
+
+#cart {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#cart td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#cart input {
+    background-color: salmon;
+    display: block;
+    margin: auto;
+}
